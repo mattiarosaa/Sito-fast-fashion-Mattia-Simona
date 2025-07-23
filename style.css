@@ -1,0 +1,616 @@
+/* reset dei mergini */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*HEADER*/
+header {
+  background-color: #3E5930;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+  height: 60px;
+  padding: 22px 72px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.logo a {
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: auto;
+  width: 648px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+  background-color: #3E5930;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+  height: 60px;
+  padding: 22px 72px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.logo a {
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  gap: auto;
+  width: 190px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+footer nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* briciole di pane */
+  .breadcrumb {
+    margin: 25px auto;
+    max-width: 1200px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 0;
+    font-size: 16px;
+    color: #7FAD67;
+  }
+
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumb li + li::before {
+    content: ">";
+    margin: 0 8px;
+    color: #7FAD67;
+  }
+
+  .breadcrumb a {
+    text-decoration: none;
+    color: #7FAD67;
+  }
+
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+ 
+main {
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Home*/
+.first-section-block-home .container-home .title-icon {
+  margin-top: 80px; /* margine del titolo iniziale */
+}
+
+
+.first-section-block-home .container-home h1 {
+  /* sottotitolo centrale dopo il titolo */
+  font-size: 40px;
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  color: #3E5930;
+}
+
+
+.part1-img1-home {
+  display: flex;
+  max-width: 800px;
+  margin: 0px auto;
+  gap: 90px;
+}
+
+.part1-img1-home p {
+  width: 60%;
+}
+
+.part1-img1-home img {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.second-section-block-home h2 {
+  font-size: 40px;
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  color: #3E5930;
+}
+ 
+
+
+
+
+
+/* qui ci manca da inserire lo sfondo nero */
+
+
+
+
+
+
+.part2-img2-home {
+  display: flex;
+  max-width: 800px;
+  margin: 0px auto;
+  gap: 80px;
+}
+.part2-img2-home p {
+  width: 60%;
+}
+
+.part2-img2-home img {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.third-container-home img {
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+.fourth-container-home {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+
+.fourth-container-home > div {
+  /* Questo significa che prende tutti i div che si trovano dentro questa class */
+  flex: 1;                    
+  max-width: 50%;         
+}
+
+
+.third-section-block-home {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.scopri-rifletti-cambia {
+  width: 800px;
+  margin: 120px auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3E5930;
+}
+
+.third-section-block-home .h2-1 {
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+
+.third-section-block-home .h2-2 {
+  font-size: 96px;
+  margin-bottom: 40px; 
+}
+
+.third-section-block-home .h2-3 {
+  font-size: 128px;
+}
+
+.third-section-text-home {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Da qui partono le card della home */
+.cards-home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.card-home {
+  text-decoration: none;
+  width: 335px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 163px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-text {
+  background-color: #3E5930;
+  padding: 0px 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  gap: 20px;
+}
+
+.card-text p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0;
+  color: white;
+  flex: 1;
+}
+
+.arrow-card-home {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.arrow-card-home img {
+  height: 24px;
+  width: auto;
+  filter: brightness(0) invert(1); /* questo fa la freccia bianca */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-section-block .container h1 {
+  font-size: 96px;
+  max-width: 840px;
+  margin-bottom: 80px;
+  line-height: 90px;
+  color: #3E5930;
+}
+
+.first-section-block .container p {
+  width: 700px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+.no-foto-cards {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap; /* permettere agli elementi flessibili di andare a capo quando non c’è abbastanza spazio nella riga. */
+  padding: 60px 20px;
+  margin-top: 80px;
+}
+
+.left-no-foto-card {
+  max-width: 400px;
+}
+
+.left-no-foto-card h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #3E5930;
+  margin: 0;
+}
+
+.left-no-foto-card p {
+  font-size: 32px;
+  font-weight: 500;
+  color: #3E5930;
+  margin-top: 20px;
+}
+
+.no-foto-card {
+  background-color: #3E5930;
+  border-radius: 20px;
+  width: 350px;
+  height: 140px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.first-card-text h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.first-card-text h4 {
+  margin: 0;
+  text-align: right;
+}
+
+.first-card-text a {
+  color: white;
+  display: inline-block;
+  padding: 14px 32px; 
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.first-card-text a:hover {
+  background-color: white;
+  color: #3E5930;
+}
+
+
+
+
+
+
+
+
+
+/* Long Card in 1 */
+.base-long-card {
+  max-width: 822px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.base-long-card h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #3E5930;
+  margin-bottom: 40px;
+}
+
+.long-card {
+  display: flex;
+  align-items: center;
+  background-color: #3E5930;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.long-card img {
+  width: 220px;
+  height: 115px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.long-card h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  width: 300px;
+}
+
+.long-card h4 {
+  margin: 0 40px;
+}
+
+.long-card h4 a {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.long-card h4 a:hover {
+  background: white;
+  color: #3E5930;
+}
+
+
+
+
+.linea {
+  border: none;
+  height: 6px;
+  background-color: #3E5930;
+  margin-top: 100px;
+  max-width: 1600px;
+  border-radius: 100px;
+}
+
+
+
+
+
+
+
+/* Qui parte la sezione base di ogni articolo */
+.section-block {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.section-block .container h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #3E5930;
+}
+
+.section-block .container p {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.section-block .img-section-block img {
+  width: 100vw;   /* tutta la larghezza della viewport (pagina) */
+  height: 550px;  /* altezza fissa */
+  object-fit: cover; /* mantiene proporzioni e taglia se serve */
+  display: block; /* elimina eventuali spazi bianchi sotto l'immagine */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.svg-section-block {
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.first-section-block .container .centro-section-block h2 {
+  margin: 0 auto;
+}
+
+.first-section-block .container .centro-section-block p {
+  margin: 0 auto;
+}
